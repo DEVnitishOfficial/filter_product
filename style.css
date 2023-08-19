@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'sono',sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    min-height: 90vh;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+   
+}
+h1{
+    color: rgb(3, 247, 3);
+}
+
+.main{
+    display: flex;
+    gap: 400px;
+}
+#addProduct,#filterProduct{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+button,select,input{
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(109, 159, 159);
+    outline: none;
+}
+button{
+    background-color: rgb(53, 194, 51);
+}
+button:hover{
+    background-color: rgb(0, 255, 0);
+}
